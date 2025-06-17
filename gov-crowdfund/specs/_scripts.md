@@ -16,9 +16,9 @@ The withdrawal script that oversight the completion of crowdfunding (i.e. `compl
 
 1. First layer
 
-   - `auth_token` - no param
+   - `spend` - no param
+   - `stake` - no param
 
 2. Second layer
 
-   - `shares` - param `auth_token`
-   - `crowdfund` - param `auth_token`
+   - `start` - param `spend` and `stake`
