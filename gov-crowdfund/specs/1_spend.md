@@ -57,11 +57,13 @@ pub type Datum {
 
 3. ContributorWithdrawal
 
+   - Input datum in state of Refundable
    - `deadline` is passed
    - The lovelace unlocking from current equal exactly the amount that the `share_token` with token name of `completion_script` is burnt
 
 4. RemoveEmptyInstance
 
+   - Input datum in state of Refundable
    - `deadline` is passed
    - share token with token name `completion_script` burning in current tx == `current_fundraised_amount`
    - signed by `proposer_key_hash`
