@@ -23,6 +23,7 @@
 
    - The only token minted with token name `completion_script`
    - Min charge must be either 0 or min utxo (let's say 1 ada)
+   - utxo is spent
 
 2. Burn - Redeemer `RBurn`
 
