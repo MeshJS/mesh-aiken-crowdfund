@@ -2,6 +2,8 @@
 
 ## Parameter
 
+1. utxo
+
 ## User Action
 
 1. Instantiate Crowdfunding Campaign - Redeemer `RMint`
