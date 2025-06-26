@@ -5,6 +5,8 @@
 - `delegate_pool_id`: ByteArray
 - `gov_action`: GovernanceAction
 - `proposer_key_hash`: ByteArray
+- `stake_register_deposit`: Int
+- `drep_register_deposti`: Int
 
 ## Datum
 
