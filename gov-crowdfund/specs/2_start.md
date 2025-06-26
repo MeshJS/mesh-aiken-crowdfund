@@ -32,7 +32,7 @@
 
 2. Burn - Redeemer `RBurn`
 
-   - The current policy id only has negative minting value in transaction body.
+   - Only 1 input from `spend_script_hash` with redeemer of `RemoveEmptyInstance`
 
 ## User Action - Publish
 
