@@ -39,7 +39,7 @@ pub type Datum {
 
    - Only one input and output from current address
      - Input datum in state of `Init`
-     - Output lovelace value = input - stake_register_deposit - drep_register_deposit
+     - todo: check output value 
      - Output datum in state of `Proposed`
      - fields exactly the same
    - Registering stake cert
