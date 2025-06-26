@@ -6,7 +6,7 @@
 - `gov_action`: GovernanceAction
 - `proposer_key_hash`: ByteArray
 - `stake_register_deposit`: Int
-- `drep_register_deposti`: Int
+- `drep_register_deposit`: Int
 
 ## Datum
 
@@ -39,10 +39,11 @@ pub type Datum {
 
    - Only one input and output from current address
      - Input datum in state of `Init`
+     - Output lovelace value = input - stake_register_deposit - drep_register_deposit
      - Output datum in state of `Proposed`
      - fields exactly the same
    - Registering stake cert
-   - Registering DRep cert
+   - Registering DRep cert with drep_register_deposit
    - Delegate to current own DRep + stake pool `delegate_pool_id`
    - Propose gov action
    - Vote on same proposal? -> if cant, create one more separate state
