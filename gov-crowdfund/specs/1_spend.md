@@ -45,7 +45,7 @@ pub type Datum {
 
    - Only one input and output from current address with token of policy `start_hash`
      - Input datum in state of `Init`
-     - Output value has deducted with 502 ADA exactly
+     - Output value has deducted with 502 + 100k ADA exactly
      - Output datum in state of `Proposed`
      - fields exactly the same
    - Registering stake cert
@@ -57,9 +57,9 @@ pub type Datum {
 
    - Only one input and output from current address with token of policy `start_hash`
      - Input datum in state of `Proposed`
-     - Check output value (deducted by 100k ADA exactly)
      - Output datum in state of `Voted`, with `gov_tx_id` composed by own's input `TransactionId` + `proposal_procedure` as 0
      - fields exactly the same
+   - Voted yes by drep
 
 3. DeregisterCerts
 
