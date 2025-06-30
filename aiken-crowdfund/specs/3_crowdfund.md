@@ -30,7 +30,8 @@
 
 2. CompleteCrowdfund
 
-   - Any value in the current utxos - (`current_fundraised_amount` + `min_charge`) goes to `fee_address`
+   - `min_charge` goes to `fee_address`
+   - utxo value >= `min_charge` + `current_fundraised_amount`
    - `current_fundraised_amount` >= `fundraise_target`
    - `completion_script` withdrawal script is executed
    - `auth_token` from current input is burnt
