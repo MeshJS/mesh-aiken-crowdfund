@@ -3,6 +3,7 @@
 ## Parameter
 
 - `auth_token`: The policy id of `AuthToken`
+- `proposer_key_hash`: ByteArray
 
 ## Datum
 
@@ -49,3 +50,4 @@
    - `deadline` is passed
    - share token with token name `completion_script` burning in current tx == `current_fundraised_amount`
    - `auth_token` from current input is burnt
+   - signed by `proposer_key_hash`
