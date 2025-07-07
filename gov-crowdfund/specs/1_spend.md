@@ -7,6 +7,7 @@
 - `proposer_key_hash`: ByteArray
 - `stake_register_deposit`: Lovelace
 - `drep_register_deposit`: Lovelace
+- `gov_deposit`: Lovelace
 
 ## Datum
 
