@@ -63,6 +63,7 @@ pub type Datum {
 
 3. DeregisterCerts
 
+   - (Hinson) missed this one - collecting 100k ada from reward address to spending address
    - deadline is passed
    - Only one input and output from current address with token of policy `start_hash`
      - Input datum in state of `Voted`
