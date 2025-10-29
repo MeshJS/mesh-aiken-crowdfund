@@ -8,6 +8,5 @@ Ultimately removing financial barriers for Cardano citizens who want to engage i
 - Development lead: Hinson & Ken (SIDAN Lab)
 - Mesh Multisig Integration: Quirin
 - Support: Mike Hornan & Adam Rusch
-- Audit: TxPipe
 
 Smart Contract behaviours & requirements - https://hackmd.io/@Mesh-Team/SJWjS5Z7lx
